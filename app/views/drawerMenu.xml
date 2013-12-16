@@ -1,0 +1,20 @@
+<Alloy>
+	<View id="wrapper">
+		<View id="content">
+			<ImageView id="tidev" />
+			
+			<Label id="about">
+				Get the latest news, tips & tricks and developer updates from this community-led Titanium site
+			</Label>
+		</View>
+		<View id="footer">
+			<Label id="alert">
+				Alert:
+			</Label>
+			
+			<Label id="item">
+				TiDev.io Launches
+			</Label>
+		</View>
+	</View>
+</Alloy>

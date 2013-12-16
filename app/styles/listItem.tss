@@ -1,0 +1,35 @@
+"#wrapper": {
+	width: 380,
+	top: 75,
+	bottom: 75,
+	left: 75,
+	backgroundColor: "#FFF",
+	layout: "vertical"
+},
+"#image": {
+	width: 200,
+	height: 200,
+	top: 40,
+	left: 90
+},
+"#heading": {
+	top: 20,
+	left: 40,
+	right: 40,
+	width: Ti.UI.FILL,
+	color: "#555",
+	font: {
+		fontSize: 18,
+		fontFamily: "HelveticaNeue-Bold"
+	}
+},
+"#text": {
+	top: 20,
+	left: 40,
+	right: 40,
+	color: "#555",
+	font: {
+		fontSize: 14,
+		fontFamily: "HelveticaNeue-Light"
+	}
+}

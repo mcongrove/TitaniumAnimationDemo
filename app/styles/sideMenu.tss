@@ -1,0 +1,19 @@
+"#wrapper": {
+	backgroundColor: "#222",
+	width: 400,
+	right: 0,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+".column": {
+	width: 100,
+	right: 0,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},
+"ImageView": {
+	width: 50,
+	height: 50,
+	top: 25,
+	left: 25	
+}

@@ -1,0 +1,19 @@
+<Alloy>
+	<View id="wrapper">
+		<Require src="navigationBar" id="NavigationBar" />
+		
+		<View id="content">
+			<View id="menuWrapper">
+				<Require src="sideMenu" id="SideMenu" />
+			</View>
+			
+			<View id="listWrapper">
+				<Require src="list" id="List" />
+			</View>
+		</View>
+		
+		<View id="drawerWrapper">
+			<Require src="drawerMenu" id="DrawerMenu" />
+		</View>
+	</View>
+</Alloy>

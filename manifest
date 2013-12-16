@@ -1,0 +1,9 @@
+#appname:Animation Demo
+#appid:com.appcelerator.animationDemo
+#type:mobile
+#guid:3ea5febd-db28-4674-8634-4a3fc78e6de3
+#version:1.0
+#publisher:Matthew Congrove
+#url:http://www.appcelerator.com
+#image:appicon.png
+#desc:A demo application to show off smooth, performant UI animations.

@@ -1,0 +1,16 @@
+"#wrapper": {
+	top: 0,
+	left: 0,
+	height: 47,
+	width: Ti.UI.FILL,
+	backgroundColor: "#650D0C"
+},
+"#title": {
+	height: 47,
+	width: Ti.UI.SIZE,
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: "HelveticaNeue-Bold"
+	}
+}

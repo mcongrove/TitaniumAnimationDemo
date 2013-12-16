@@ -1,0 +1,28 @@
+"#wrapper": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+"#drawerWrapper": {
+	top: 47,
+	right: 0,
+	height: 40,
+	width: 200
+},
+"#content": {
+	top: 47,
+	left: -300,
+	right: 0,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+"#menuWrapper": {
+	left: 0,
+	width: 400,
+	height: Ti.UI.FILL
+},
+"#listWrapper": {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}

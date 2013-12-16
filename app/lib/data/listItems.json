@@ -1,0 +1,64 @@
+{
+	"listItems": [
+		{
+			"id": "scale_triangle",
+			"heading": "How do you go from one app to one hundred?",
+			"text": "The hard part isn’t starting. It’s scaling. Mobile is driving a new standard for the way we design, build, test, integrate and measure apps. The Appcelerator Platform gives enterprises everything to create and run transformative mobile app portfolios– all from an open, cloud-based platform.",
+			"image": "/images/list/scale_triangle.png",
+			"color": {
+				"background": "#3D454E",
+				"text": "#CBCDCE"
+			}
+		},
+		{
+			"id": "why_platform",
+			"heading": "Why a Platform?",
+			"text": "True mobile enterprises aren’t built on point tools. The Appcelerator Platform eliminates data silos, redundant investments and brute force, enabling fast, proven, enterprise mobile scale.",
+			"image": "/images/list/why_platform.png",
+			"color": {
+				"background": "#FFF",
+				"text": "#555"
+			}
+		},
+		{
+			"id": "native_apps",
+			"heading": "Create amazing apps for any device, with no hybrid compromises",
+			"text": "Building apps that impress across a range of devices and operating systems can be an expensive proposition. Only Appcelerator lets developers create rich native apps for every major mobile platform, with all the efficiency and speed of web.",
+			"image": "/images/list/native_apps.png",
+			"color": {
+				"background": "#F4F4F4",
+				"text": "#555"
+			}
+		},
+		{
+			"id": "apisclouds",
+			"heading": "Great apps need great data",
+			"text": "Feeding apps the data they need requires mobile-optimized APIs backed by a scalable cloud architecture. The Appcelerator Platform delivers this via a true, enterprise MBaaS (mobile backend-as-a-service) to unleash data for full mobile innovation.",
+			"image": "/images/list/apisclouds.png",
+			"color": {
+				"background": "#FFF",
+				"text": "#555"
+			}
+		},
+		{
+			"id": "drive_roi",
+			"heading": "See your success",
+			"text": "Too many organizations are flying blind where their mobile investments are concerned. The Appcelerator Platform delivers a new breed of mobile analytics, helping organizations to drive ROI with real-time metrics from across the app lifecycle.",
+			"image": "/images/list/drive_roi.png",
+			"color": {
+				"background": "#F4F4F4",
+				"text": "#555"
+			}
+		},
+		{
+			"id": "ecosystem",
+			"heading": "Backed by the world’s largest mobile ecosystem",
+			"text": "More than 530,000 developers and over 1,400 customers count on Appcelerator’s technology for mobile innovation.",
+			"image": "/images/list/ecosystem.png",
+			"color": {
+				"background": "#FFF",
+				"text": "#555"
+			}
+		}
+	]
+}

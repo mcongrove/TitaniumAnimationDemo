@@ -1,0 +1,62 @@
+"#wrapper": {
+	bottom: 0,
+	left: 0,
+	height: 240,
+	width: 200,
+	backgroundColor: "#333"
+},
+"#content": {
+	height: 200,
+	width: Ti.UI.FILL,
+	top: 0,
+	layout: "vertical"
+},
+"#tidev": {
+	image: "/images/tidev.png",
+	width: 140,
+	height: 61,
+	left: 30,
+	top: 30
+},
+"#about": {
+	top: 10,
+	left: 20,
+	right: 20,
+	height: 91,
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontFamily: "HelveticaNeue-Light"
+	}
+},
+"#footer": {
+	width: Ti.UI.FILL,
+	height: 40,
+	bottom: 0,
+	backgroundColor: "#000",
+	layout: "horizontal"
+},
+"#alert": {
+	width: Ti.UI.SIZE,
+	height: 38,
+	top: 0,
+	left: 20,
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontFamily: "HelveticaNeue-Bold"
+	},
+	textAlign: "left"
+},
+"#item": {
+	width: Ti.UI.SIZE,
+	height: 40,
+	top: 0,
+	left: 5,
+	color: "#CCC",
+	font: {
+		fontSize: 14,
+		fontFamily: "HelveticaNeue"
+	},
+	textAlign: "left"
+}

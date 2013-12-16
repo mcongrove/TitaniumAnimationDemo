@@ -1,0 +1,51 @@
+<Alloy>
+	<View id="wrapper">
+		<View class="column">
+			<ImageView image="/images/icons/28.png" />
+			<ImageView image="/images/icons/29.png" />
+			<ImageView image="/images/icons/30.png" />
+			<ImageView image="/images/icons/31.png" />
+			<ImageView image="/images/icons/32.png" />
+			<ImageView image="/images/icons/33.png" />
+			<ImageView image="/images/icons/34.png" />
+			<ImageView image="/images/icons/35.png" />
+			<ImageView image="/images/icons/36.png" />
+		</View>
+		
+		<View class="column">
+			<ImageView image="/images/icons/19.png" />
+			<ImageView image="/images/icons/20.png" />
+			<ImageView image="/images/icons/21.png" />
+			<ImageView image="/images/icons/22.png" />
+			<ImageView image="/images/icons/23.png" />
+			<ImageView image="/images/icons/24.png" />
+			<ImageView image="/images/icons/25.png" />
+			<ImageView image="/images/icons/26.png" />
+			<ImageView image="/images/icons/27.png" />
+		</View>
+		
+		<View class="column">
+			<ImageView image="/images/icons/10.png" />
+			<ImageView image="/images/icons/11.png" />
+			<ImageView image="/images/icons/12.png" />
+			<ImageView image="/images/icons/13.png" />
+			<ImageView image="/images/icons/14.png" />
+			<ImageView image="/images/icons/15.png" />
+			<ImageView image="/images/icons/16.png" />
+			<ImageView image="/images/icons/17.png" />
+			<ImageView image="/images/icons/18.png" />
+		</View>
+		
+		<View class="column">
+			<ImageView image="/images/icons/1.png" />
+			<ImageView image="/images/icons/2.png" />
+			<ImageView image="/images/icons/3.png" />
+			<ImageView image="/images/icons/4.png" />
+			<ImageView image="/images/icons/5.png" />
+			<ImageView image="/images/icons/6.png" />
+			<ImageView image="/images/icons/7.png" />
+			<ImageView image="/images/icons/8.png" />
+			<ImageView image="/images/icons/9.png" />
+		</View>
+	</View>
+</Alloy>
