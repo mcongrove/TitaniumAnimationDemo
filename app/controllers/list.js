@@ -13,6 +13,8 @@ function init() {
 		
 		$.wrapper.add(listItem);
 	}
+	
+	$.wrapper.contentWidth = ((455 * items.length) + 75);
 }
 
 init();

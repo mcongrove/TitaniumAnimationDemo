@@ -5,7 +5,5 @@
 	left: 0,
 	right: 0,
 	height: Ti.UI.FILL,
-	contentHeight: "auto",
-	contentWidth: "auto",
 	backgroundColor: "#EEE"
 }

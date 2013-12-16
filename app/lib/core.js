@@ -80,6 +80,7 @@ var App = {
 		controller.window = Ti.UI.createWindow({
 			backgroundColor: Alloy.CFG.windowBackgroundColor,
 			statusBarStyle: OS_IOS ? Ti.UI.iPhone.StatusBar.LIGHT_CONTENT : null,
+			navBarHidden: true,
 			orientationModes: [
 				Ti.UI.LANDSCAPE_LEFT,
 				Ti.UI.LANDSCAPE_RIGHT
