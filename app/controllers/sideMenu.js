@@ -1,5 +1,31 @@
 var App = require("core");
 
+var accordionOpen = false;
+
+function toggleAccordion(_event) {
+	if(!accordionOpen) {
+		Ti.API.error("Opening");
+		$.accordion.visible = true;
+		
+		$.accordion.animate({
+			height: 200,
+			duration: 250
+		});
+		
+		accordionOpen = true;
+	} else {
+		Ti.API.error("Closing");
+		$.accordion.animate({
+			height: 1,
+			duration: 250
+		}, function() {
+			$.accordion.visible = false;
+		});
+		
+		accordionOpen = false;
+	}
+}
+
 function calculateUI() {
 	var containers = $.wrapper.children;
 	var height = App.Device.height - 47;
@@ -20,9 +46,17 @@ function calculateUI() {
 			if(children[q].image) {
 				children[q].width = iconSize;
 				children[q].height = iconSize;
+				
+				if(i == (containers.length - 1) && q == 0) {
+					children[q].addEventListener("click", toggleAccordion);
+				}
 			}
 		}
+		
+		containers[i].visible = true;
 	}
 }
 
-calculateUI();
+setTimeout(function() {
+	calculateUI();
+}, 1000);

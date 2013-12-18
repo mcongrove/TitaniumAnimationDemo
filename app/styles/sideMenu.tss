@@ -9,11 +9,31 @@
 	width: 100,
 	right: 0,
 	height: Ti.UI.FILL,
-	layout: "vertical"
+	layout: "vertical",
+	visible: false
 },
 "ImageView": {
 	width: 50,
 	height: 50,
 	top: 25,
 	left: 25	
+},
+"#accordion": {
+	top: 0,
+	height: 1,
+	width: 100,
+	visible: false
+},
+"Label": {
+	top: 25,
+	left: 10,
+	right: 10,
+	height: Ti.UI.FILL,
+	color: "#FFF",
+	backgroundColor: "#111",
+	font: {
+		fontSize: 14,
+		fontFamily: "HelveticaNeue-Light"
+	},
+	textAlign: "center"
 }

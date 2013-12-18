@@ -38,6 +38,11 @@
 		
 		<View class="column">
 			<ImageView image="/images/icons/1.png" />
+			
+			<View id="accordion">
+				<Label text="This is an accordian" />
+			</View>
+			
 			<ImageView image="/images/icons/2.png" />
 			<ImageView image="/images/icons/3.png" />
 			<ImageView image="/images/icons/4.png" />
