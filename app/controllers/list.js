@@ -17,4 +17,12 @@ function init() {
 	$.wrapper.contentWidth = ((455 * items.length) + 75);
 }
 
+Ti.App.addEventListener("expand", function(_event) {
+	if(_event.expanded) {
+		$.wrapper.contentWidth = $.wrapper.contentWidth + 200;
+	} else {
+		$.wrapper.contentWidth = $.wrapper.contentWidth - 200;
+	}
+});
+
 init();
