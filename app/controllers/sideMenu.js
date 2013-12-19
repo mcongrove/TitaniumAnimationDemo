@@ -4,7 +4,6 @@ var accordionOpen = false;
 
 function toggleAccordion(_event) {
 	if(!accordionOpen) {
-		Ti.API.error("Opening");
 		$.accordion.visible = true;
 		
 		$.accordion.animate({
@@ -14,7 +13,6 @@ function toggleAccordion(_event) {
 		
 		accordionOpen = true;
 	} else {
-		Ti.API.error("Closing");
 		$.accordion.animate({
 			height: 1,
 			duration: 250
@@ -33,8 +31,6 @@ function calculateUI() {
 	
 	if(OS_IOS && App.Device.versionMajor >= 7) {
 		height = height - 20;
-	} else if(OS_ANDROID) {
-		height = height;
 	}
 	
 	iconSize = ((height - 500) / 9);
