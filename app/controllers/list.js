@@ -18,6 +18,8 @@ function init() {
 }
 
 Ti.App.addEventListener("expand", function(_event) {
+	$.wrapper.contentHeight = "auto";
+	
 	if(_event.expanded) {
 		$.wrapper.contentWidth = $.wrapper.contentWidth + 200;
 	} else {

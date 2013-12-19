@@ -7,6 +7,8 @@ $.heading.color = ARGS.color.text;
 $.text.text = ARGS.text;
 $.text.color = ARGS.color.text;
 
+var height = 0;
+
 if(ARGS.expandable) {
 	var expanded = false;
 	
@@ -19,11 +21,14 @@ if(ARGS.expandable) {
 	});
 	
 	$.expand.addEventListener("click", function(_event) {
+		height = $.wrapper.size.height;
+		
 		if(!expanded) {
 			Ti.App.fireEvent("expand", { expanded: true });
 			
 			$.wrapper.animate({
 				width: 580,
+				height: height,
 				duration: 500
 			});
 			
@@ -31,6 +36,7 @@ if(ARGS.expandable) {
 		} else {
 			$.wrapper.animate({
 				width: 380,
+				height: height,
 				duration: 500
 			}, function() {
 				Ti.App.fireEvent("expand", { expanded: false });
