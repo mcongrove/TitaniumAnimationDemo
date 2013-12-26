@@ -1,0 +1,10 @@
+android/ATTR_MINIFY=true
+android/ATTR_PROJECT_NAME=Animation Demo
+android/abi=armeabi
+android/distribute_path=/Users/matthewcongrove/Desktop
+android/keystore_alias=androidrelease
+android/keystore_password=On3summ3r\!
+android/keystore_path=/Users/matthewcongrove/AndroidRelease.keystore
+android/recent_output=/Users/matthewcongrove/Desktop
+android/sdk_version=2.3.3
+eclipse.preferences.version=1
